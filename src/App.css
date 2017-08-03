@@ -1,0 +1,123 @@
+.App {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.App > * {
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+.content {
+}
+.contentContainer {
+  flex: 1 0 auto;
+}
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+p {
+    font-size: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.content {
+  flex: 1;
+}
+.welcome-text {
+  text-align: left;
+  width: 50%;
+}
+.about-text {
+  text-align: left;
+
+}
+.sidebarStyle {
+  padding: 30px;
+  color: black;
+  text-align: center;
+  height:auto;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border:1px solid #CCCCCC;
+  background-color:#FAFAFA;
+  -webkit-box-shadow: #D6D6D6 7px 7px 7px;
+  -moz-box-shadow: #D6D6D6 7px 7px 7px;
+  box-shadow: #D6D6D6 7px 7px 7px;
+}
+.sidebarStyle ul {
+  display: inline;
+}
+.sidebarStyle li {
+  list-style: none;
+  padding-top: 15px;
+}
+.sidebarStyle a {
+  color:black;
+}
+.sidebarMain {
+  display: flex;
+  flex-direction: column;
+}
+.seansPictureStyle {
+  height: 350px;
+  padding: 20px;
+}
+.resumeStyle {
+  color:#2980b9;
+  font-size: large;
+}
+svg:hover {
+  fill:#3498db;
+}
+@media screen and (min-width: 700px) {
+  .main {
+    flex-direction: row-reverse;
+  }
+
+  .sidebarStyle {
+    padding-left: 30px;
+    margin-left: 140px;
+    width: 25%;
+    height: 450px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border:1px solid #CCCCCC;
+    background-color:#FAFAFA;
+    -webkit-box-shadow: #D6D6D6 7px 7px 7px;
+    -moz-box-shadow: #D6D6D6 7px 7px 7px;
+    box-shadow: #D6D6D6 7px 7px 7px;
+  }
+  .sidebarStyle a {
+    text-align: center;
+    color:black;
+    font-size: large;
+  }
+  .sidebarMain {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+  .sidebarContent {
+    margin-bottom: 15px;
+  }
+  .seansPictureStyle {
+    height: 350px;
+    float:right;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,27 @@
+.projectItemsStyle {
+  margin-left: 40px;
+
+}
+.projectItemsStyle a {
+  color: #2980b9;
+}
+.projectItemsStyle a:hover {
+  color: #3498db;
+}
+.projectItemsStyle h3 {
+  margin-top: 40px;
+}
+.projectItemsStyle p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.projectItemsStyle img {
+
+  padding-bottom: 25px;
+}
+.projectItemsStyle a {
+
+}
+.projectItemsStyle hr {
+  margin-top: 35px;
+}
